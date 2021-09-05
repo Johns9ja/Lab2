@@ -3,8 +3,9 @@ class Main {
     System.out.println("M&M Color Counts");
 
     int totalMms;
-    double blue, brown, green, orange, red, yellow;
     totalMms = 55*11;
+    
+    double blue, brown, green, orange, red, yellow;
     blue = totalMms *0.24;
     brown = totalMms *0.13;
     green = totalMms *0.16;
@@ -23,15 +24,15 @@ class Main {
     sumTotal = blue + brown + green + orange + red + yellow;
     System.out.println("Sum: " + sumTotal);
 
-    if(blue < brown && red >= orange){
+    if(blue < brown && red >= orange) {
       System.out.println("Blue under Brown and Red over Orange");
     }
 
-    if(brown >= green){
+    if(brown >= green) {
       System.out.println("Brown is greater than or equal to Green");
     }
 
-    if(totalMms == sumTotal){
+    if(totalMms == sumTotal) {
       System.out.println("Numbers match");
     }
 
